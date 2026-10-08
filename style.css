@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.header {
+  background-color: #536dfe;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+.header-label {
+  margin: 0 0 10px;
+}
+
+.header-konten h1 {
+  margin: 5px 0;
+}
+
+.header-konten p {
+  margin-bottom: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 25px auto;
+}
+
+.Introduction {
+  display: flex;
+  gap: 15px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.Introduction h2 {
+  margin-top: 0;
+}
+
+.Anggota {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.Kartu-Anggota {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 18px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.Foto-Anggota {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.Info-Anggota {
+  flex: 1;
+  min-width: 250px;
+}
+
+.Anggota-H {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.Anggota-H h2 {
+  margin: 0;
+}
+
+.role {
+  background-color: #e4e8ff;
+  color: #3549c5;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+dl {
+  margin-bottom: 0;
+}
+
+dl div {
+  display: flex;
+  margin-top: 10px;
+}
+
+dt {
+  width: 180px;
+  font-weight: bold;
+}
+
+dd {
+  margin: 0;
+}
+
+.sosial-instagram {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #f7e8f2;
+  color: #b51c72;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.img-instagram {
+  width: 24px;
+  height: 24px;
+}
+
+.sosial-instagram:hover {
+  background-color: #f0cfe3;
+}
+
+@media (max-width: 600px) {
+  .Kartu-Anggota {
+    flex-direction: column;
+  }
+
+  .Info-Anggota {
+    width: 100%;
+  }
+
+  dl div {
+    display: block;
+  }
+
+  dt {
+    width: auto;
+  }
+
+  dd {
+    margin-top: 3px;
+  }
+}
